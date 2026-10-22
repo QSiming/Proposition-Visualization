@@ -174,18 +174,26 @@ of police misconduct allegations.</h2>
 
                 <figure>
                     
-                    <img src="images/for.png" alt="Visualization supporting the proposition">
+                    <img src="images/for.png" alt="Two charts compare overall substantiation rates and annual Force rates with the combined non-Force rate.">
 
                     <figcaption>Force allegations have the lowest overall substantiation rate (<strong>12.8%</strong>)
-    and remain below other misconduct categories across the years shown.</figcaption>
+    and remained below the combined non-Force rate in all 20 years shown (2000–2019; 95% of records).</figcaption>
                 </figure>
 
                 <p>Design Decisions and Rationale:</p>
+                <p><small>Scores range from -2 (fully deceptive) to +2 (fully earnest).</small></p>
 
                 <ul>
-                    <li>RATIONALE_1</li>
-                    <li>RATIONALE_2</li>
-                    <li>RATIONALE_3</li>
+                    <li><strong>Use the substantiation rate across all recorded outcomes (score: +2).</strong>
+                        The first panel includes substantiated, unsubstantiated, and exonerated allegations in the denominator, so its 12.8% Force rate directly addresses the proposition about likelihood. Restricting the denominator to only substantiated and unsubstantiated cases would raise the Force rate to 23.6%, but that would answer a narrower question; using all outcomes makes this comparison more faithful to the claim.</li>
+                    <li><strong>Compare categories with horizontal bars on one zero-based percentage scale (score: +2).</strong>
+                        A shared scale makes the differences between Force and the other allegation categories easy to judge, and the bars start at zero so their lengths represent the rates without exaggerating small gaps. A cropped axis might make the separation look more dramatic, but it would make the visual comparison less trustworthy.</li>
+                    <li><strong>Sort categories by rate and highlight Force in dark blue (score: +1).</strong>
+                        The descending order makes the ranking quick to scan, while the dark blue bar directs attention to the category central to the proposition. A neutral palette would distribute attention more evenly, but the chosen emphasis helps the reader find Force immediately while the lighter bars and exact labels preserve the other categories for comparison.</li>
+                    <li><strong>Add a year-by-year comparison with the combined non-Force rate (score: +1).</strong>
+                        The trend panel shows that the Force rate is below the combined rate for other allegation types in all 20 years displayed. A single overall rate would be simpler, but it could hide year-to-year variation; plotting each category separately would reveal more detail, though it could make the panel harder to read.</li>
+                    <li><strong>State the comparison as a combined rate and focus on 2000–2019 (score: -1).</strong>
+                        Naming the combined non-Force rate avoids implying that Force is below every individual category, and the 20-of-20 result is easy to read. But the period covers 95% of records and leaves out sparse 1985–1999 years when Force sometimes ran higher; showing the full historical span would be more complete but would weaken the consistent trend.</li>
                 </ul>
             </section>
 
